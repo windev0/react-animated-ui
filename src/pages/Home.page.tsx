@@ -3,12 +3,15 @@ import SectionBlock from "../components/SectionBlock";
 const HomePage = () => {
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Bienvenue sur le projet Animation UI</h1>
-      <p>
-        Ce projet démontre l'utilisation de la librairie <b>GSAP</b> pour créer
-        des animations interactives dans une interface React. Découvrez
-        différentes animations et leur intégration dans des composants modernes.
-      </p>
+      <div className="mb-4">
+        <h1 className="mb-3">Bienvenue sur le projet Animation UI</h1>
+        <p>
+          Ce projet démontre l'utilisation de la librairie <b>GSAP</b> pour
+          créer des animations interactives dans une interface React. Découvrez
+          différentes animations et leur intégration dans des composants
+          modernes.
+        </p>
+      </div>
       <div style={{ display: "flex", gap: "2rem", marginTop: "2rem" }}>
         <SectionBlock
           title="Véhicules en Mouvement"
