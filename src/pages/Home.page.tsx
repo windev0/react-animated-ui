@@ -29,10 +29,10 @@ const HomePage = () => {
           animationType="text"
         />
         <SectionBlock
-          title="Transitions de Pages"
-          description="Transitions fluides entre les pages."
-          route="/page-transitions"
-          animationType="page"
+          title="Liqueur de Fehling"
+          description="Simulation de la mise en évidence des sucres."
+          route="/fehling-simulation"
+          animationType="fehling-simulation"
         />
       </div>
     </div>
