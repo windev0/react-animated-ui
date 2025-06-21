@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/Home.page";
 import VehiculePage from "./pages/Vehicule.page";
+import HeroText from "./pages/Herotext";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gsp-to" element={<VehiculePage />} />
+        <Route path="/hero-txt" element={<HeroText />} />
         <Route path="*" element={<Navigate to={"/"} />} />
       </Routes>
     </BrowserRouter>

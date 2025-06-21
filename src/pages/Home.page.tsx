@@ -25,7 +25,7 @@ const HomePage = () => {
         <SectionBlock
           title="Effets de Texte"
           description="Animations de texte dynamiques avec GSAP."
-          route="/text-effects"
+          route="/hero-txt"
           animationType="text"
         />
         <SectionBlock
