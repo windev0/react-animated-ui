@@ -27,10 +27,7 @@ const TestTube = ({
     <div className="relative h-72 w-24 bg-white rounded-b-full border-4 border-gray-300 overflow-hidden">
       <div
         ref={liquidRef}
-        className={`absolute bottom-${
-        //   isPositive ? 0 : 0
-        0
-        } w-full h-3/4 bg-blue-500 rounded-t-full`}
+        className={`absolute bottom-0 w-full h-3/4 bg-blue-500 rounded-t-full`}
       ></div>
     </div>
   );
