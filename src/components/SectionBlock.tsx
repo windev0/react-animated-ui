@@ -24,7 +24,7 @@ const SectionBlock: React.FC<SectionBlockProps> = ({
   return (
     <section
       id={animationType}
-      className={` cursor-pointer ${className} py-10 px-6 bg-white rounded-2xl shadow-lg transition-transform hover:scale-105`}
+      className={` cursor-pointer ${className} py-2 px-5 bg-white rounded-2xl shadow-lg transition-transform hover:scale-105`}
       onClick={() => navigate(route)}
     >
       <div className="grid grid-cols-1 gap-4">

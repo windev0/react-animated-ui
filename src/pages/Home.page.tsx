@@ -2,9 +2,11 @@ import SectionBlock from "../components/SectionBlock";
 
 const HomePage = () => {
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className="p-5 ">
+      <h1 className="mb-3 pt-6 text-blue-100 text-2xl">
+        Bienvenue sur le projet Animation UI
+      </h1>
       <div className="mb-4">
-        <h1 className="mb-3">Bienvenue sur le projet Animation UI</h1>
         <p>
           Ce projet démontre l'utilisation de la librairie <b>GSAP</b> pour
           créer des animations interactives dans une interface React. Découvrez
@@ -12,14 +14,15 @@ const HomePage = () => {
           modernes.
         </p>
       </div>
-      <div style={{ display: "flex", gap: "2rem", marginTop: "2rem" }}>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <SectionBlock
           title="Véhicules en Mouvement"
           description="Animation GSAP.to simulant des véhicules en déplacement."
           route="/gsp-to"
           animationType="vehicle"
         />
-        {/* <SectionBlock
+        <SectionBlock
           title="Effets de Texte"
           description="Animations de texte dynamiques avec GSAP."
           route="/text-effects"
@@ -30,7 +33,7 @@ const HomePage = () => {
           description="Transitions fluides entre les pages."
           route="/page-transitions"
           animationType="page"
-        /> */}
+        />
       </div>
     </div>
   );
